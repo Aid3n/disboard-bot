@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("Puntuación general:", "0")
     .addField("Media:", "0 pts")
     .addField("Entrada al clan:", "6/09/2018")
-    channel.send(Embed)
+    message.channel.send(Embed);
 }
 
 module.exports.help = {
