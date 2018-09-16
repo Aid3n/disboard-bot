@@ -26,7 +26,7 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} esta online en ${bot.guilds.size} servidores!`);
 
-  bot.user.setActivity(" hola!", {type: "WATCHING"});
+  bot.user.setActivity("No Game No Life", {type: "WATCHING"});
 
 });
 
