@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("Win:", "1", inline= true)
     .addField("Lose:", "4", inline= true)
     .addField("Withdraw:", "0", inline= true)
-    .setFooter("Imanity: 9 Seirens: 5 Werebeast: 6", "https://pbs.twimg.com/media/DnPeL62W0AYtW9Y.png:large")
+    .setFooter("Imanity: 10 Seirens: 5 Werebeast: 8", "https://pbs.twimg.com/media/DnPeL62W0AYtW9Y.png:large")
     message.channel.send(embed);
 }
 
